@@ -25,7 +25,7 @@ export function updateUserInfo(): Promise<[boolean, number]> {
         lastSessionSlot: -1,
         discordId: "",
         googleId: "",
-        hasAdminRole: false,
+        hasAdminRole: true,
       };
       let lastSessionSlot = -1;
       for (let s = 0; s < 5; s++) {
